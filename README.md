@@ -1,5 +1,6 @@
+
 # Qubit
-Read this readme and join us in space
+Read this readme and then join us in the :sparkles:
 
 # Connect
 
