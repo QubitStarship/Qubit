@@ -1,0 +1,45 @@
+# This is the Starship Adventure Git Large File Storage filter
+# Unreal Assets
+*.umap filter=lfs diff=lfs merge=lfs -text
+*.uasset filter=lfs diff=lfs merge=lfs -text
+# 3D Assets
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.3ds filter=lfs diff=lfs merge=lfs -text
+# Sound Files
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.acc filter=lfs diff=lfs merge=lfs -text
+*.flac filter=lfs diff=lfs merge=lfs -text
+*.ogg filter=lfs diff=lfs merge=lfs -text
+# Video Files
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.avi filter=lfs diff=lfs merge=lfs -text
+*.mkv filter=lfs diff=lfs merge=lfs -text
+*.m4v filter=lfs diff=lfs merge=lfs -text
+*.wmv filter=lfs diff=lfs merge=lfs -text
+*.flac filter=lfs diff=lfs merge=lfs -text
+*.mpeg filter=lfs diff=lfs merge=lfs -text
+# Image Files
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.xcf filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.tga filter=lfs diff=lfs merge=lfs -text
+*.dds filter=lfs diff=lfs merge=lfs -text
+*.svg filter=lfs diff=lfs merge=lfs -text
+.pdf filter=lfs diff=lfs merge=lfs -text
+
+# Anything in the Quixel Megascan folder
+
+Megascans/**
+
+# Anything in the ExtendedContent folder
+
+Content/ExtendedContent/** filter=lfs diff=lfs merge=lfs -text
+
+# Anything in Maps Folder
+Content/Maps/** filter=lfs diff=lfs merge=lfs -text
+
+# Anything in the Plugins folder
+
+Plugins/** filter=lfs diff=lfs merge=lfs -text
