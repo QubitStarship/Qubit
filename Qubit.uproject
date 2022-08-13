@@ -51,11 +51,7 @@
 		{
 			"Name": "RawInput",
 			"Enabled": true
-		},
-		{
-			"Name": "VariableAccessLib",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/966e565e609d4868a4c83948f2936130"
 		}
+
 	]
 }
