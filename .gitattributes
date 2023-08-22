@@ -47,3 +47,6 @@ Content/Maps/** filter=lfs diff=lfs merge=lfs -text
 # Anything in the Plugins folder
 
 Plugins/** filter=lfs diff=lfs merge=lfs -text
+
+# Anything in Maps Folder
+Content/Spice/** filter=lfs diff=lfs merge=lfs -text
