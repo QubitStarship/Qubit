@@ -63,6 +63,10 @@
 			"Name": "SkyPosition",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/967bae01c3ae4cf8910c1f7a2b085382"
+		},
+		{
+			"Name": "ElectraPlayer",
+			"Enabled": true
 		}
 	]
 }
