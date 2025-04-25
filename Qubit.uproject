@@ -71,6 +71,11 @@
 		{
 			"Name": "HDRIBackdrop",
 			"Enabled": true
+		},
+		{
+			"Name": "AstroLib",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/7abdd207bf654b95abd08c15cce7c5fb"
 		}
 	]
 }
